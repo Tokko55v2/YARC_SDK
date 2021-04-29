@@ -18,6 +18,6 @@ public struct Post: Identifiable {
     public var numComments: Int
     public var permalink: String
     public var created: Double
-    public var preview: [Preview]
-    public var urlOverridenByDest: String
+    public var preview: [Preview]?
+    public var urlOverridenByDest: String?
 }
