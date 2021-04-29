@@ -1,5 +1,5 @@
-import XCTest
 @testable import YARC_SDK
+import XCTest
 
 final class YARC_SDKTests: XCTestCase {
     func testExample() {
@@ -9,7 +9,5 @@ final class YARC_SDKTests: XCTestCase {
         XCTAssertEqual(YARC_SDK().text, "Hello, World!")
     }
 
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+    static var allTests = [("testExample", testExample)]
 }
