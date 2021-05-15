@@ -12,9 +12,7 @@ public protocol YarcModule {
     func dispatchLogin() -> AnyPublisher<Void, YarcError>
 
     func getPosts(_ prefix: String) -> AnyPublisher<Posts, YarcError>
-
-    func getSubReddit( /* SubReddit Model */ ) -> AnyPublisher<SubReddit, YarcError>
-
+    
     func getSubscribedReddits() -> AnyPublisher<SubReddits, YarcError>
 
     func getMostPopularReddits() -> AnyPublisher<SubReddits, YarcError>
